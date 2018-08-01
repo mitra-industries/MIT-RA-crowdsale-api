@@ -1,0 +1,23 @@
+project:
+  name: mit-ra-geth-api
+server:
+  host: 0.0.0.0
+  port: 8888
+  url: http://ethereum-api.mit-ra.ai
+ethereum:
+  socket: https://rinkeby.infura.io
+  wallet:
+    file: data/wallets/rinkeby_owner
+    pass: qwerty333
+  address:
+    token: 0x72147dAED2Ad3c5cB96fF22C62f630F68302F0CA
+    crowdsale: 0x445087136c9fd84a4Dafd297005F8600C3Add36E
+  start_block:
+    crowdsale: 857820
+  nonce_gap: 15
+  nonce_replacement_timeout: 180
+  gas_price: 50
+  gas_limit: 95000
+  tx_delay: 5
+auth:
+  secret: secret
