@@ -1,0 +1,11 @@
+server:
+  url: https://ethereum-api.mit-ra.ai
+ethereum:
+  socket: /home/ethereum/.ethereum/geth.ipc
+  wallet:
+    file: data/wallets/owner
+  address:
+    token: 0x6704b673c70de9bf74c8fba4b4bd748f0e2190e1
+    crowdsale: 0x2cc1060de78aa44e3e6a86102fac93f1de49adb2
+  start_block:
+    crowdsale: 5648000
